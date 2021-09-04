@@ -185,9 +185,9 @@ const Home = () => {
             <Loader />
           </div>
         ) : (
-          <ExecutorList agent_list={agent_list} />
+          <ExecutorList companies={companies} />
         )}
-        {/* <ExecutorList companies={companies} /> */}
+        {/* <ExecutorList agent_list={agent_list} /> */}
       </div>
     </div>
   );
